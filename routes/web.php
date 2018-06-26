@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController@index');
+
+Route::get('login', 'Auth\Controller@showLoginForm')->name('login');
+
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('ranking/want', 'RankingController@want')->name('ranking.want');});
+
