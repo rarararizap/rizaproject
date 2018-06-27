@@ -16,6 +16,14 @@
     </head>
     <body>
         @include('commons.navbar')
+        
+        @if (session('situation'))
+            <div class="container mt-2">
+                <div class="alert alert-success">
+                    {{ session('situation') }}
+                </div>
+            </div>
+        @endif
 
         <div class="container">
             @yield('content')
