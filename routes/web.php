@@ -13,8 +13,16 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('login', 'Auth\Controller@showLoginForm')->name('login');
+Route::post('members/members', 'WelcomeController@keyword')->name('keyword');
 
-Route::group(['middleware' => ['auth']], function () {
-    Route::get('ranking/want', 'RankingController@want')->name('ranking.want');});
+Route::get('members', 'MembersController@index')->name('members.index');
+
+Route::get('members/koreken', 'MembersController@koreken')->name('members.koreken');
+Route::get('members/shuhei', 'MembersController@shuhei')->name('members.shuhei');
+Route::get('members/yuta', 'MembersController@yuta')->name('members.yuta');
+Route::get('members/marina', 'MembersController@marina')->name('members.marina');
+Route::get('members/kanna', 'MembersController@kanna')->name('members.kanna');
+Route::get('members/minami', 'MembersController@minami')->name('members.minami');
+
+
 
