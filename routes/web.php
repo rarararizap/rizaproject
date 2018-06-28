@@ -13,9 +13,9 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::post('members/members', 'WelcomeController@keyword')->name('keyword');
+Route::post('/', 'WelcomeController@keyword')->name('keyword');
 
-Route::get('members', 'MembersController@index')->name('members.index');
+Route::get('members/members', 'MembersController@index')->name('members.members');
 
 Route::get('members/koreken', 'MembersController@koreken')->name('members.koreken');
 Route::get('members/shuhei', 'MembersController@shuhei')->name('members.shuhei');
