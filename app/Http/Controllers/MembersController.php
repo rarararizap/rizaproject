@@ -6,10 +6,14 @@ use Illuminate\Http\Request;
 
 class MembersController extends Controller
 {
-    public function members(){
+    public function index(){
         return view('members');
     }
     
+    public function show ($name) {
+        return view('members.'. $name);
+    }
+    /*
      public function koreken(){
         return view('koreken');
     }
@@ -33,6 +37,6 @@ class MembersController extends Controller
      public function minami(){
         return view('minami');
     }
-    
+    */
     
 }
