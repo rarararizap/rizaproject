@@ -10,6 +10,10 @@ class MembersController extends Controller
         return view('members');
     }
     
+    public function show ($name) {
+        return view('members.'. $name);
+    }
+    /*
      public function koreken(){
         return view('members.koreken');
     }
@@ -33,6 +37,6 @@ class MembersController extends Controller
      public function minami(){
         return view('members.minami');
     }
-    
+    */
     
 }
