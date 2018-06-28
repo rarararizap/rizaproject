@@ -15,27 +15,27 @@ class MembersController extends Controller
     }
     /*
      public function koreken(){
-        return view('koreken');
+        return view('members.koreken');
     }
     
      public function shuhei(){
-        return view('shuhei');
+        return view('members.shuhei');
     }
     
      public function yuta(){
-        return view('yuta');
+        return view('members.yuta');
     }
     
      public function marina(){
-        return view('marina');
+        return view('members.marina');
     }
     
      public function kanna(){
-        return view('kanna');
+        return view('members.kanna');
     }
     
      public function minami(){
-        return view('minami');
+        return view('members.minami');
     }
     */
     
