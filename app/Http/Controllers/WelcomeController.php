@@ -16,6 +16,7 @@ class WelcomeController extends Controller
         $keyword = $request->keyword;
         
         if ($keyword==='結果にコミット'){
+
              return view('members.members');
         }
        else{

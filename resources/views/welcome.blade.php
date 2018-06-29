@@ -92,15 +92,18 @@
 
             {!! Form::open(['route' => 'keyword']) !!}
                 <div class="form-group">
-                {!! Form::label('keyword', 'What is the word?') !!}
-                {!! Form::text('keyword', null, ['class' => 'form-control']) !!}
+                    {!! Form::label('keyword', 'What is the word?') !!}
+                    {!! Form::text('keyword', null, ['class' => 'form-control']) !!}
                 </div>
+            <!--{!! Form::close() !!}-->
+            
+            <!--{!! Form::open(['route' => ['members.index']]) !!}-->
                 <div class="text-right">
-                    
+                 
                     {!! Form::submit('input', ['class' => 'btn btn-light']) !!}
-                
+                   
                 </div>
-            {!! form::close() !!}
+            {!! Form::close() !!}
         
              
                

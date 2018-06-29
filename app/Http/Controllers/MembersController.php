@@ -10,33 +10,28 @@ class MembersController extends Controller
         return view('members');
     }
     
-    public function show ($name) {
-        return view('members.'. $name);
-    }
-    /*
-     public function koreken(){
+    public function koreken () {
         return view('members.koreken');
     }
     
-     public function shuhei(){
+    public function shuhei () {
         return view('members.shuhei');
     }
     
-     public function yuta(){
+    public function yuta () {
         return view('members.yuta');
     }
     
-     public function marina(){
+    public function marina () {
         return view('members.marina');
     }
     
-     public function kanna(){
+    public function kanna () {
         return view('members.kanna');
     }
     
-     public function minami(){
+    public function minami () {
         return view('members.minami');
     }
-    */
     
 }

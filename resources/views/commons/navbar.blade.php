@@ -14,12 +14,16 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  >MEMBERS <span class="caret"></span></a>
                 <ul class="dropdown-menu">
+                  
+                  
                   <li>{!! link_to_route('members.koreken', 'Koreken') !!}</li>
                   <li>{!! link_to_route('members.shuhei', 'Shuhei') !!}</li>
                   <li>{!! link_to_route('members.yuta', 'Yuta') !!}</li>
                   <li>{!! link_to_route('members.marina', 'Marina') !!}</li>
                   <li>{!! link_to_route('members.kanna', 'Kanna') !!}</li>
                   <li>{!! link_to_route('members.minami', 'Minami') !!}</li>
+                 
+                  
                 </ul>
               </li>
           </ul>
