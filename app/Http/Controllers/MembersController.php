@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class MembersController extends Controller
 {
     public function index(){
-        return view('members');
+        return view('members.members');
     }
     
     public function koreken () {

@@ -2,7 +2,7 @@
     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#" style="color: #868A08;">RaRaRaRIZAP</a>
+              <a class="navbar-brand" href="{{ route('members.index') }}" style="color: #868A08;">RaRaRaRIZAP</a>
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
